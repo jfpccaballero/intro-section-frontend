@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="images/logo.svg" alt="img">
+      <div class="nav-dk">
+        <img class="close" src="images/icon-close-menu.svg" alt="img">
+        <div class="nav-links">
+          <div class="accordeon">
+            <a class="link" href="#">Features <img class="arrow" src="images/icon-arrow-down.svg" alt="img"></a>
+            <div class="feature-links open-links">
+              <a class="link" href="#"><img class="icon" src="images/icon-todo.svg" alt="img">ToDo List</a>
+              <a class="link" href="#"><img class="icon" src="images/icon-calendar.svg" alt="img">Calendar</a>
+              <a class="link" href="#"><img class="icon" src="images/icon-reminders.svg" alt="img">Reminders</a>
+              <a class="link" href="#"><img class="icon" src="images/icon-planning.svg" alt="img">Planning</a>
+            </div>
+          </div>
+          <div class="accordeon">
+            <a class="link" href="#">Company <img class="arrow" src="images/icon-arrow-down.svg" alt="img"></a>
+            <div class="company-links open-links">
+              <a class="link" href="#">History</a>
+              <a class="link" href="#">Our Team</a>
+              <a class="link" href="#">Blog</a>
+            </div>
+          </div>
+          <a class="link" href="#">Careers</a>
+          <a class="link" href="#">About</a>
+        </div>
+        <div class="nav-buttons">
+          <button class="nav-btn login">Login</button>
+          <button class="nav-btn register">Register</button>
+        </div>
+      </div>
+      <img class="mb menu" src="images/icon-menu.svg" alt="img">
+    </nav>
+  </header>
+  <main>
+    <div class="container">
+      <img class="mb hero" src="images/image-hero-mobile.png" alt="img">
+
+      <div class="content">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="btn">Learn more</button>
+        <div class="logos">
+          <img src="images/client-databiz.svg" alt="img">
+          <img src="images/client-audiophile.svg" alt="img">
+          <img src="images/client-meet.svg" alt="img">
+          <img src="images/client-maker.svg" alt="img">
+        </div>
+      </div>
+
+      <img class="dk" src="images/image-hero-desktop.png" alt="img">
+    </div>
+
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">jfpccaballero</a>.
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
